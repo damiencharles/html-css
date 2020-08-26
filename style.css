@@ -1,0 +1,112 @@
+/* GLOBAL */
+body {
+    font-family: Arial,sans-serif;
+}
+
+h1, h2 {
+    letter-spacing: 8px;
+}
+.peach {
+    background-color: #ff9670;
+}
+.grey {
+    background-color: #ebebeb;
+}
+
+footer {
+    font-size: small;
+}
+
+@font-face {
+        font-family: "KOMIKAX_";
+        src: url("./assets/font/KOMIKAX_.ttf")
+}
+
+
+/* STYLE */
+.foot {
+    border-right: 1px white solid;
+}
+
+#services {
+    text-align: justify;
+}
+
+#reseaux {
+    filter: invert(1)
+}
+
+#scroll {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: block;
+    opacity: 0.5;
+}
+
+#navBAR {
+    z-index:1;
+    filter : drop-shadow(10px 10px 20px  rgba(0, 0, 0, 0.2))
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+audio {
+    width: 80%;
+}
+
+.flash:hover {
+    filter : drop-shadow(16px 16px 20px rgba(255, 150, 112, 0.5));
+}
+
+
+/* MEDIA */
+
+@media (max-width: 568px){
+    #btn {
+        margin-left: 43% !important;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    nav {
+        text-align: center !important;
+}
+}
+
+@media (max-width: 768px){
+#services {
+    text-align: center !important;
+}
+#quoteSize {
+    font-size: 1em !important;
+}
+
+}
+
+@media (max-width: 990px){
+    .foot {
+        border: none;
+    }
+
+    #head, #head2, .slider {
+        text-align: center !important;
+    }
+
+    .dropdown-menu a {
+        color: white;
+        
+    }
+
+    .nav-link, .dropdown-item {
+        text-align: center !important;
+    }
+
+}
+
+
+
+
